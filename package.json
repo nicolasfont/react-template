@@ -2,10 +2,10 @@
   "name": "react-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "clean": "npx rimraf dist node_modules",
     "prepare": "husky install",
+    "start": "vite",
     "test": "jest"
   },
   "dependencies": {
